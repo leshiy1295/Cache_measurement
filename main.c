@@ -12,14 +12,14 @@
 
 #define TWICE(x) x x
 
-const size_t CYCLES_COUNT = 1000000;
+const size_t CYCLES_COUNT = 10000000;
 
 const size_t MIN_POW = 10;
-const size_t MAX_POW = 25;
+const size_t MAX_POW = 35;
 
-const size_t MIN_ELEM_SIZE = 1;
-const size_t MAX_ELEM_SIZE = 4000;
-const size_t ELEM_SIZE_DELTA = 500;
+const size_t MIN_ELEM_SIZE = 1000;
+const size_t MAX_ELEM_SIZE = 40000;
+const size_t ELEM_SIZE_DELTA = 1000;
 
 uint64_t rdtsc(){
     unsigned int lo,hi;
