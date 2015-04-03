@@ -15,7 +15,7 @@
 const size_t CYCLES_COUNT = 10000000;
 
 const size_t MIN_POW = 10;
-const size_t MAX_POW = 35;
+const size_t MAX_POW = 28;
 
 const size_t MIN_ELEM_SIZE = 1000;
 const size_t MAX_ELEM_SIZE = 40000;

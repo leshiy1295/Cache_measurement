@@ -1,2 +1,2 @@
 compile: main.c
-	gcc main.c -o cache_measurement
+	gcc main.c -std=c99 -o cache_measurement
